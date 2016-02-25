@@ -1,9 +1,5 @@
 platform: linux
 image: docker:///busybox
 
-inputs:
-- name: setup
-  path: .
-
 run:
   path: ./setup.sh
